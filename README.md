@@ -43,34 +43,48 @@ cd GitHub-Repo-Backup-Tool
 2. Install dependencies:
 pip install requests
 
+---
+
 ## ▶️ Usage
 
 Run the script:
-  python main.py
-Enter any GitHub username when prompted.
-The tool will fetch repository details, store them in a JSON file, and create a ZIP archive as backup.
 
-✅ Example Output
+```bash
+python main.py
+
+---
+
+## ✅ Example Output
 Enter GitHub username: torvalds
 Repository data saved: backup_data/repos.json
 Backup archive created: backup_archive.zip
 Backup completed successfully!
 
-💡 Learning Objectives
+
+---
+
+## 💡 Learning Objectives
 
 This project demonstrates:
--API integration using Python
--JSON data handling
--File system automation
--Error handling with exceptions
--Backup & archiving techniques
 
-📌 Future Improvements
+- API integration using Python  
+- JSON data handling  
+- File system automation  
+- Error handling with exceptions  
+- Backup and archiving techniques  
 
--GitHub authentication for private repos
--Clone repositories into backups
--GUI interface
--Scheduled automatic backups
+---
 
-👨‍💻 Author
-Ayush Ashwani Jaiswal
+## 📌 Future Improvements
+
+- GitHub authentication for private repositories  
+- Clone repositories into backups  
+- GUI interface  
+- Scheduled automatic backups  
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Ashwani Jaiswal**
+
